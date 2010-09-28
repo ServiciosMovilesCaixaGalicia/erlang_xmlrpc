@@ -10,6 +10,12 @@ Patches
 
 -- John Wright <john@dryfish.org>
 
+
+ * Rebar compilation
+ * Module name normalization 
+
+-- Manuel Durán <manuel@aguete.org>
+
 ----------------------------------------------------------------------------
 
 The following is the contents of the original README.  The link to get the
