@@ -1,0 +1,12 @@
+{application, xmlrpc,
+ [
+  {description, "XMLRPC library"},
+  {vsn, "1.13-cxg"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  xmerl,
+		  inets
+                 ]}
+ ]}.

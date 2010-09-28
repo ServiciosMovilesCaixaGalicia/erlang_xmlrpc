@@ -177,7 +177,7 @@ start_link(Port, MaxSessions, Timeout, Handler, State) ->
 start_link(IP, Port, MaxSessions, Timeout, Handler, State) ->
     OptionList = [{active, false}, {reuseaddr, true}|ip(IP)],
     SessionHandler = {xmlrpc_http, handler, [Timeout, Handler, State]}, 
-    tcp_serv:start_link([Port, MaxSessions, OptionList, SessionHandler]).
+    xmlrpc_tcp_serv:start_link([Port, MaxSessions, OptionList, SessionHandler]).
 
 ip(all) -> [];
 ip(IP) when is_tuple(IP) -> {ip, IP}.

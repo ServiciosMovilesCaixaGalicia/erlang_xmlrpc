@@ -24,7 +24,7 @@
 %% NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 %% SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
--module(tcp_serv).
+-module(xmlrpc_tcp_serv).
 -vsn("1.13").
 -author('jocke@gleipnir.com').
 -export([start_link/1, start_link/2, stop/1, stop/2]).
