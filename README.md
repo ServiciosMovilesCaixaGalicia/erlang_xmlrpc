@@ -4,6 +4,12 @@ XML-RPC client and server for Erlang
 Patches
 -------
 
+ * Changed xmlrpc.erl to an old version from unknown source for use 
+   only as a client. Not tested as server.
+
+-- Amancio Díaz <amancio.diaz@gmail.com>
+
+
  * Support HTTP 1.0 servers which do keep alive.
  * Update to newer Erlang releases from Tangentsoft applied.
    (from http://tangentsoft.net/erlang/xmlrpc-1.13-wy.patch)
